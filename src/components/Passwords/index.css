@@ -1,0 +1,74 @@
+.pass-list-item {
+  border: 1px solid #b6c3ca;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 200px;
+  border-radius: 6px;
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.userInitial {
+  background-color: #f59e0b;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-left: 15px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete-img {
+  width: 25px;
+}
+
+.stars-img {
+  width: 70px;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.lightGreen {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}

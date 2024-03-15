@@ -1,0 +1,247 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.app-logo {
+  width: 120px;
+}
+
+.form-img-container {
+  display: flex;
+  background-color: #5763a5;
+  border-radius: 8px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.form-container {
+  width: 45%;
+  background-color: #454f84;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-pass-text {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-bottom: 12px;
+}
+
+.input-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.input-logos-img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.input-box {
+  height: 28px;
+  width: 100%;
+  border-left: 1px solid #b6c3ca;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  font-size: 14px;
+  font-family: Roboto;
+  color: #94a3b8;
+  padding: 6px;
+  outline: none;
+  font-weight: 400;
+}
+
+.password-manager-img {
+  width: 40%;
+}
+
+.add-btn {
+  align-self: flex-end;
+  width: 55px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Roboto;
+  padding: 6px;
+  outline: none;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-manager-container {
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.pass-head-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.yourPassword-head-pass-count-container {
+  display: flex;
+}
+
+.your-pass-head {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.pass-count {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+  border: 1px solid #b6c3ca;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 2px;
+  margin-left: 4px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.search-logo-img {
+  width: 22px;
+  margin-right: 6px;
+  margin-left: 4px;
+}
+
+.search-box {
+  border-left: 1px solid #b6c3ca;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  padding: 4px;
+  outline: none;
+}
+
+.horizon-line {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  align-items: center;
+}
+
+.label-text {
+  padding-left: 4px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.no-pass-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.no-password-img {
+  width: 40%;
+}
+
+.no-password-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.unorder-pass-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .app-logo {
+    width: 90px;
+  }
+  .password-manager-img {
+    display: none;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .add-pass-text {
+    font-size: 15px;
+  }
+  .password-manager-container {
+    padding: 7px;
+  }
+
+  .pass-head-search-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yourPassword-head-pass-count-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .your-pass-head {
+    font-size: 15px;
+  }
+
+  .no-password-img {
+    width: 50%;
+  }
+
+  .no-password-text {
+    font-size: 15px;
+  }
+  .search-box {
+    margin-left: 0;
+  }
+}
